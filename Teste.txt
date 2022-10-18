@@ -8,16 +8,10 @@ Informações necessárias:
 - Telefone
 - Especialidade: (Ex.: ANESTESIOLOGIA, FONOAUDIOLOGIA, ENDOCRINOLOGIA, GERIATRIA, HEMATOLOGIA, CIRURGIA GERAL)
 
--Diferenciais (Opcionais):
-- utilizar POO (Programação Orientada a Objetos)
-- Enviar os comandos SQL de criação de tabelas, com toda a estruturas das tabelas utilizadas.
-- Utilizar JavaScript
-
 Utilizado:
 PHP
 Mysql
 Bootstrap
 JavaScript
 Css
-
 

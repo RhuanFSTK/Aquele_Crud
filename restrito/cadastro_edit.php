@@ -23,19 +23,19 @@
         <form action="edit_script.php" method="POST" class="form">
           <div class="mb-3">
             <label for="nome" class="form-label">Nome</label>
-            <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite seu nome completo" required value="<?php echo $linha['nome'];?>">
+            <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite seu nome completo" required value="<?php echo $linha['nome'];?>" required>
           </div>
           <div class="mb-3">
             <label for="crm" class="form-label">CRM</label>
-            <input type="text" class="form-control" name="crm" id="crm" value="<?php echo $linha['crm'];?>">
+            <input type="text" class="form-control" name="crm" id="crm" value="<?php echo $linha['crm'];?>" required>
           </div>
           <div class="mb-3">
             <label for="telefone" class="form-label">Telefone</label>
-            <input type="text" class="form-control" name="telefone" id="telefone" placeholder="(DDD) 0000-0000" value="<?php echo $linha['telefone'];?>">
+            <input type="text" class="form-control" name="telefone" id="telefone" placeholder="(DDD) 0000-0000" value="<?php echo $linha['telefone'];?>" required >
           </div>
           <div class="mb-3">
             <label for="especialidade" class="form-label">Especialidade</label>
-            <select name="especialidade" id="especialidade" value="<?php echo $linha['especialidade'];?>">
+            <select name="especialidade" id="especialidade" value="<?php echo $linha['especialidade'];?>" required >
               <option value=""></option>
               <option value="Anestesiologia">ANESTESIOLOGIA</option>
               <option value="Fonoaudiologia">FONOAUDIOLOGIA</option>

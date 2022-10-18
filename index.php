@@ -14,7 +14,7 @@
         <div class="col-3"></div>
         <div class="col-6">
         <div class="jumbotron">
-          <h1 class="display">PHP/Myslq/Bttrap/JS</h1>
+          <h1 class="display">AqueleCrud</h1>
             <form action="index.php" method="POST">
               <div class="form-group">
                 <label for="exampleInputEmail1" class="indicadores">Loguin</label>
