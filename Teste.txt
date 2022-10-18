@@ -1,0 +1,46 @@
+Utilizando PHP e MySQL, crie uma página web onde você consiga:
+1. CADASTRAR, ALTERAR e EXCLUIR um médico
+2. LISTAR todos os médicos
+
+Informações necessárias:
+- Nome do médico
+- CRM
+- Telefone
+- Especialidade: (Ex.: ANESTESIOLOGIA, FONOAUDIOLOGIA, ENDOCRINOLOGIA, GERIATRIA, HEMATOLOGIA, CIRURGIA GERAL)
+
+-Diferenciais (Opcionais):
+- utilizar POO (Programação Orientada a Objetos)
+- Enviar os comandos SQL de criação de tabelas, com toda a estruturas das tabelas utilizadas.
+- Utilizar JavaScript
+
+Não é necessário o sistema estar on-line. Envie apenas os arquivos com o código. Pode ser uma pasta zipada ou um link do github.
+
+Seja criativo!
+
+Utilizado:
+PHP
+Mysql
+Bootstrap
+JavaScript
+Css
+
+Estruturas das tabelas:
+-Arquivo em foto na pag img
+
+XAMPP - PHP MyAdm
+pessoas 
+    Nome            vachar(200)     utf8mb4_unicode_ci
+    CRM             vachar(30)      utf8mb4_unicode_ci
+    Telefone        vachar(16)      utf8mb4_unicode_ci
+    Especialidade   vachar(200)     utf8mb4_unicode_ci
+    ID              INT(30)         utf8mb4_unicode_ci
+
+usuarios
+    id_usuario      INT(255)        utf8mb4_unicode_ci
+    Nome            vachar(50)      utf8mb4_unicode_ci
+    loguin          vachar(32)      utf8mb4_unicode_ci
+    senha           vachar(32)      utf8mb4_unicode_ci
+
+Alterei de login para loguin pois tive um contratempo na variavel login que não estava reconhecendorder.
+
+Muito obrigado pela oportunidade de estafazendo esse teste e o conhecimento adquirido com tal.

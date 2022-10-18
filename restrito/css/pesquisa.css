@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200&display=swap');
+*{
+    font-family: oxanium, sans-serif;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+header h1{
+    background-color: #132e53;
+    color: white;
+}
+
+#inicio{
+    background-color: #132e53;
+    color: white;
+    transition: 0.6s;
+}
+#inicio:hover{
+    background-color: white;
+    color: rgba(19, 46, 83);
+    font-weight: bold;
+}
+#editar{
+    background-color:white ;
+    color:#132e53 ;
+    font-weight: bold;
+    border:1px solid rgba(19, 46, 83); 
+}
+#editar:hover{
+    background-color:rgba(19, 46, 83);
+    color: white;
+}
+
+th{
+    color: rgba(19, 46, 83);
+}
