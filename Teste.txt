@@ -8,6 +8,8 @@ Informações necessárias:
 - Telefone
 - Especialidade: (Ex.: ANESTESIOLOGIA, FONOAUDIOLOGIA, ENDOCRINOLOGIA, GERIATRIA, HEMATOLOGIA, CIRURGIA GERAL)
 
+=======================================================================
+
 Utilizado:
 PHP
 Mysql
